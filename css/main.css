@@ -5,6 +5,18 @@
 .container {
     border:2px solid blue;
 }
+
+/* general syles */
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3rem;
+}
+/* header styling */
 .container-header {
     display:flex;
     flex-direction: column;
@@ -17,6 +29,13 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*larger screens nav styling */
+@media (min-width: 576px) {
+    .nav-list {
+        flex-direction: row;
+    }
 }
 
 .nav-list-items {
@@ -34,7 +53,8 @@
 }
 
 .logo {
-    width:8em;
+    width:80px;
+    height: 80px;
 }
 
 .img-full-width {
@@ -44,5 +64,73 @@
 .project {
     margin-bottom:15px;
     padding-bottom:15px;
+}
+
+.icon {
+    padding:0.5em;
+}
+
+
+/* footer styling */
+footer {
+    width: 100%;
+    background-color: cadetblue;
+    height: 100px;
+    text-align: center;
+}
+
+.footer-info {
+    padding:2em;
+}
+
+/* styling contact form */
+.form-container {
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+
+}
+
+span {
+    color:red;
+}
+
+input[type=text]{
+  width: 70%;
+  padding: 0.5em;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+
+}
+
+
+.msg-text {
+    height: 100px;
+    width: 70%;
+    padding: 0.5em;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background-color: #000;
+    color:white;
+    border:none;
+    width: 20%;
+    padding: 0.5em;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
 }
 
