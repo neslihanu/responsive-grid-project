@@ -31,7 +31,7 @@
     </header>
     <main>
         <div class=" hero">
-            <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.</p>
+            <p class="center-text">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.</p>
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
         </div> <!--closing tag for hero-->
             <img class="img-full-width" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="ux design mockups">
@@ -62,7 +62,7 @@
             <div class="container">
                 <section>
                     <h1>about.</h1>
-                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.</p>
+                    <p class="center-text">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.</p>
                 </section>
             </div> <!--closing tag for container-->
 
@@ -72,29 +72,28 @@
                 <section>
                     <h1>contact.</h1>
                     <div class="form-container">
-                        <form class="contact-form" action="#">
-                            <label for="name">Enter Your Name <span>*</span></label><br>
-                            <input type="text" name="name" value="Name" placeholder="Name" required><br>
-                            <label for="email">Enter Your Email<span>*</span></label><br>
-                            <input type="text" name="email" value="Email" placeholder="Email" required><br>
-                            <label for="phone">Enter Your Phone</label><br>
-                            <input type="text" name="phone" value="Phone" placeholder="Phone"><br>
-                            <label for="message">Enter Your Message Here <span>*</span></label><br>
-                            <textarea class="msg-text" type="text" name="message" value="Message" placeholder="Message" required></textarea><br><br>
-                            <input class="submit-button" type="submit" value="Send"> 
-                      </form>
+                            <form action="#">
+                                <label for="name">Enter Your Name <span>*</span></label><br>
+                                <input  class="col-11 sm-col-11 md-col-6 lg-col-6 xl-col-6" type="text" name="name" value="Name" placeholder="Name" required><br>
+                                <label for="email">Enter Your Email<span>*</span></label><br>
+                                <input class="col-11 sm-col-11 md-col-6 lg-col-6 xl-col-6" type="text" name="email" value="Email" placeholder="Email" required><br>
+                                <label for="phone">Enter Your Phone</label><br>
+                                <input class="col-11 sm-col-11 md-col-6 lg-col-6 xl-col-6" type="text" name="phone" value="Phone" placeholder="Phone"><br>
+                                <label for="message">Enter Your Message Here <span>*</span></label><br>
+                                <textarea class="msg-text col-11 sm-col-11 md-col-6 lg-col-6 xl-col-6" type="text" name="message" value="Message" placeholder="Message" required></textarea><br><br>
+                                <div class="form-contact-list">
+                                    <input class="submit-button form-contact-list-items" type="submit" value="Send">
+                                    <p class=" email-text form-contact-list-items">info@mysite.com</p>
+                                    <div class="icon-list form-contact-list-items">
+                                        <i class="icon fa fa-facebook" aria-hidden="true"></i>
+                                        <i class="icon fa fa-pinterest-p" aria-hidden="true"></i>
+                                        <i class="icon fa fa-instagram" aria-hidden="true"></i>
+                                    </div> <!-- closing tag for icon-list-->
+                                </div> <!-- closing tag for form-contact-list-->
+                            </form>  
                     </div> <!-- closing tag for form-container-->
 
-                      <div class="row">
-                        
-                        <p class="col-12 sm-col-12 md-col-3 lg-col-2 xl-col-2">info@mysite.com</p>
-                        <div class="icon-list col-12 sm-col-12 md-col-3 lg-col-2 xl-col-2">
-                            <i class="icon fa fa-facebook" aria-hidden="true"></i>
-                            <i class="icon fa fa-pinterest-p" aria-hidden="true"></i>
-                            <i class="icon fa fa-instagram" aria-hidden="true"></i>
-                        </div> <!-- colsing tag for icon-list-->
-                                             
-                      </div> <!-- closing tag for row-->
+                      
                      
                 </section>
                
@@ -102,7 +101,7 @@
 
     </main>
     <footer>
-            <p class="footer-info">Copyright 2023 by XX.</p>      
+            <p class="footer-info center-text">Copyright 2023 by XX.</p>      
     </footer>
 
 </body>
